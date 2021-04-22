@@ -99,7 +99,7 @@ export async function isDeployed(address: string, provider: Provider) {
  */
 export async function deployFactory(provider: Provider) {
   const key =
-    '0x563905A5FBF71C05A44BE9240E62DBD777D69A2E20D702AA584841AF7C04E939'
+    '0x625cffa3f75fb1f7985f0fa73ebb42b602c103026718cd87a30ae9821aa6900e'
   const signer = new ethers.Wallet(key, provider)
   const Factory = new ethers.ContractFactory(
     factoryAbi,
